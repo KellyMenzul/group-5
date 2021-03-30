@@ -4,7 +4,7 @@ import KellyComp from '../comps/CustomComponent2';
  function Home() {
   return (
     <div>
-      Homepage
+    
       <LeahComp/>
       <KellyComp/>
       <HannahComp/>

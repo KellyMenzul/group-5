@@ -1,20 +1,49 @@
-function LeahComp()
+function LeahComp({
+    flex="flex",
+    flexdirection="column",
+    justify="center",
+    headingColor="#4f518c",
+    headingSize="25px",
+    headingFamily="sans-serif",
+    spanColor="darkviolet",
+    buttonWidth="120px",
+    buttonHeight="80px",
+    border="none",
+    buttonColor="lavender",
+    buttonFont="#4f518c"
+
+
+})
 {
-    return <div>
-    <button style={{
-        width:120,
-        height:80,
-        border:'3px solid #4f518c',
-        backgroundColor:'lavender',
-        borderRadius: '15px'
+    return <div style={{
+        display: flex,
+        flexDirection: flexdirection,
+        alignItems: justify,
         
     }}>
         <h3 style={{
-            color:'#4f518c',
-            fontSize: '20px'
+            color:headingColor,
+            fontSize: headingSize,
+            fontFamily: headingFamily
         }}>
-            Leah
+           Leah's<span
+            style ={{
+                
+                color:spanColor
+            }}
+            > Component</span>
         </h3>
+    
+    <button style={{
+        width: buttonWidth,
+        height: buttonHeight,
+        border: border,
+        backgroundColor: buttonColor,
+        color: buttonFont,
+        
+        
+    }}>
+            Leah
     </button>
 
     </div>

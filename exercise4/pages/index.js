@@ -7,6 +7,7 @@ import KellyComp from '../comps/CustomComponent2';
       Homepage
       <LeahComp/>
       <KellyComp/>
+      <HannahComp/>
     </div>
   )
 }

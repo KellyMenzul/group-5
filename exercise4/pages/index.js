@@ -1,7 +1,10 @@
+import LeahComp from '../comps/CustomComponent1'
 
-function Home() {
+ function Home() {
   return (
     <div>
+      Homepage
+      <LeahComp/>
     </div>
   )
 }

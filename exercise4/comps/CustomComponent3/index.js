@@ -1,5 +1,3 @@
-export default HannahComp;
-
 function HannahComp({
     flex= "flex",
     flexdirection= "column",

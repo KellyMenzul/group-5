@@ -1,5 +1,6 @@
 import LeahComp from '../comps/CustomComponent1';
 import KellyComp from '../comps/CustomComponent2';
+import HyerinComp from '../comps/CustomComponent4';
 
  function Home() {
   return (
@@ -7,6 +8,7 @@ import KellyComp from '../comps/CustomComponent2';
       Homepage
       <LeahComp/>
       <KellyComp/>
+      <HyerinComp/>
     </div>
   )
 }

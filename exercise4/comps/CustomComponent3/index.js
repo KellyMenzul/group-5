@@ -9,7 +9,7 @@ function HannahComp({
     spancolor= "linen",
     font= "verdana",
     fontsize= "15px",
-    backgroundcolor= "#CFD11A",
+    backgroundColor= "#CFD11A",
     border="1px dashed linen"
 }){
     return(
